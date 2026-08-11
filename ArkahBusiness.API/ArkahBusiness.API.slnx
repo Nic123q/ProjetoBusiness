@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../ArkahBusiness.Tests/ArkahBusiness.Tests.csproj" Id="7dcd60d5-667f-433e-a42d-47c42f4f4b04" />
+  <Project Path="ArkahBusiness.API.csproj" />
+</Solution>

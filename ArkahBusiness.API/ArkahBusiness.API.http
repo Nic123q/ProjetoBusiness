@@ -1,0 +1,3 @@
+@ArkahBusiness.API_HostAddress = http://localhost:5142
+GET http://localhost:8080/instance/connectionState/arkah_clinica_1
+apikey: suasenha

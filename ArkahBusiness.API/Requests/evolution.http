@@ -1,0 +1,11 @@
+POST http://localhost:8080/instance/create
+apikey: suasenhasecreta
+Content-Type: application/json
+
+{
+  "instanceName": "arkah_clinica_1",
+  "qrcode": true,
+  "integration": "WHATSAPP-BAILEYS"
+}
+GET http://localhost:8080/instance/connect/arkah_clinica_1
+apikey: suasenhasecreta

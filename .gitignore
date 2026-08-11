@@ -1,0 +1,78 @@
+# =========================
+# Build results
+# =========================
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Xx]64/
+[Xx]86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Bb]uild/
+
+# =========================
+# Visual Studio / Rider files
+# =========================
+.vs/
+.vscode/
+.idea/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.sln.docstates
+
+# =========================
+# App settings with secrets
+# (appsettings.json fica no repo SEM segredos;
+# os arquivos abaixo, se existirem, NUNCA devem subir)
+# =========================
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Local.json
+appsettings.*.local.json
+
+# =========================
+# Logs gerados pelo Serilog
+# =========================
+Logs/
+**/Logs/
+*.log
+
+# =========================
+# Testes / cobertura
+# =========================
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+
+# =========================
+# NuGet
+# =========================
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# =========================
+# Docker (se houver volumes locais)
+# =========================
+docker-compose.override.yml
+
+# =========================
+# Docker env (senhas e API keys)
+# =========================
+.env
+.env.*.local
+
+# =========================
+# OS / misc
+# =========================
+.DS_Store
+Thumbs.db
+*.swp
