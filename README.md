@@ -151,13 +151,3 @@ dotnet test
 ```
 
 Os testes usam banco em memória (EF Core InMemory) e mocks via Moq, então rodam isolados sem depender de SQL Server ou da Evolution API de verdade.
-
-## O que falta / próximos passos
-
-- Webhook pra ouvir a resposta do cliente no WhatsApp e confirmar o agendamento automaticamente
-- Refresh token (hoje o usuário precisa logar de novo a cada 8h)
-- Rate limiting no login
-- Validação de DTOs com FluentValidation
-- Paginação nas listagens
-- Health check endpoint
-- CI rodando os testes a cada push
