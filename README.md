@@ -60,7 +60,7 @@ ProjetoBusiness/
 ### 1. Clone e configure os segredos
 
 ```bash
-git clone https://github.com/SEU-USUARIO/ProjetoBusiness.git
+git clone https://github.com/Nic123q/ProjetoBusiness.git
 cd ProjetoBusiness/ArkahBusiness.API
 
 dotnet user-secrets init
